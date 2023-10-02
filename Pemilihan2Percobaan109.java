@@ -4,11 +4,12 @@ public class Pemilihan2Percobaan109 {
         Scanner input09 = new Scanner(System.in);
         System.out.print("Masukkan Tahun: ");
         int tahun = input09.nextInt();
-            if  ((tahun % 4) == 0) {
+            if  ((tahun % 4) == 0 ) {
                 if ((tahun % 100)!= 0){
                     System.out.println("Tahun Kabisat");       
-            } else 
+            }else 
             System.out.println("Bukan Tahun Kabisat");
-            }
+        }
     }
 }
+

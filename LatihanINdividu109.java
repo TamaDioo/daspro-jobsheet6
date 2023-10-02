@@ -11,24 +11,19 @@ public class LatihanIndividu109 {
         System.out.print("Masukkan bilangan ketiga: ");
         int bil3 = input09.nextInt();
 
-        int bilanganTerbesar;
-
         if (bil1 > bil2) {
             if (bil1 > bil3) {
-                bilanganTerbesar = bil1;
                 System.out.println("Bilangan terbesar adalah bilangan " + bil1);
             } else {
-                bilanganTerbesar = bil3;
                 System.out.println("Bilangan terbesar adalah bilangan " + bil3);
             }
         } else {
             if (bil2 > bil3) {
-                bilanganTerbesar = bil2;
                 System.out.println("Bilangan terbesar adalah bilangan " + bil2);
             } else {
-                bilanganTerbesar = bil3;
                 System.out.println("Bilangan terbesar adalah bilangan " + bil3);
             }
+            input09.close(); 
         }
     }
 }
